@@ -1,3 +1,14 @@
+#' Pareto function
+#'
+#' @param x
+#' @param mn
+#' @param ...
+#'
+#' @returns
+#' @export
+#'
+#' @examples
+#' pareto(l)
 pareto <- function(x, mn = "Pareto barplot", ...) {  # x is a vector
   x.tab = table(x)
   xx.tab = sort(x.tab, decreasing = TRUE, index.return = FALSE)
