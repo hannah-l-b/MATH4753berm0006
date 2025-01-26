@@ -1,10 +1,10 @@
 #' Pareto function
 #'
-#' @param x
-#' @param mn
-#' @param ...
+#' @param x A vector or factor containing the categorical data to be visualized.
+#' @param mn An optional title for the chart (default is NULL).
+#' @param ... Additional arguments passed to the underlying plotting functions.
 #'
-#' @returns
+#' @returns A Pareto chart displaying the frequency of categories and their cumulative percentage.
 #' @export
 #'
 #' @examples

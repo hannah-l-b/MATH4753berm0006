@@ -7,7 +7,14 @@
 pareto(x, mn = "Pareto barplot", ...)
 }
 \arguments{
-\item{...}{}
+\item{x}{A vector or factor containing the categorical data to be visualized.}
+
+\item{mn}{An optional title for the chart (default is NULL).}
+
+\item{...}{Additional arguments passed to the underlying plotting functions.}
+}
+\value{
+A Pareto chart displaying the frequency of categories and their cumulative percentage.
 }
 \description{
 Pareto function
