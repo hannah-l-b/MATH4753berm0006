@@ -6,8 +6,10 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' dird = "data/"
 #' myread("data.csv")
+#' }
 myread=function(csv){
   fl=paste(dird,csv,sep="")
   read.table(fl,header=TRUE,sep=",")
