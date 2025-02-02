@@ -4,12 +4,12 @@
 \alias{myread}
 \title{Read a CSV file}
 \usage{
-myread(csv)
+myread(csv, dir = getwd())
 }
 \arguments{
 \item{csv}{A string specifying the CSV filename.}
 
-\item{dird}{A string specifying the directory where the CSV file is located.}
+\item{dir}{A string specifying the directory containing the CSV file.}
 }
 \value{
 A data frame containing the contents of the CSV file.
@@ -19,4 +19,5 @@ Read a CSV file
 }
 \examples{
 myread("data.csv")
+myread("data.csv", dir = "/path/to/data/")
 }
