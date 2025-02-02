@@ -20,5 +20,5 @@ A Pareto chart displaying the frequency of categories and their cumulative perce
 Pareto function
 }
 \examples{
-pareto(l)
+pareto(x)
 }

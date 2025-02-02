@@ -8,6 +8,7 @@
 #' @export
 #'
 #' @examples
+#' x <- c(10, 20, 30, 40, 50)
 #' pareto(x)
 pareto <- function(x, mn = "Pareto barplot", ...) {  # x is a vector
   x.tab = table(x)
