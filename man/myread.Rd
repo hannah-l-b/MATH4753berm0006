@@ -8,6 +8,8 @@ myread(csv)
 }
 \arguments{
 \item{csv}{A string specifying the CSV filename.}
+
+\item{dird}{A string specifying the directory where the CSV file is located.}
 }
 \value{
 A data frame containing the contents of the CSV file.
