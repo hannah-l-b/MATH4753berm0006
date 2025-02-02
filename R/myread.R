@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' myread("data.csv", dir = "path/to/directory")
+#' myread("data.csv")
 myread=function(csv){
   fl=paste(dird,csv,sep="")
   read.table(fl,header=TRUE,sep=",")
