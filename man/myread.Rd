@@ -16,6 +16,8 @@ A data frame containing the contents of the CSV file.
 Read a CSV file
 }
 \examples{
+\dontrun{
 dird = "data/"
 myread("data.csv")
+}
 }
