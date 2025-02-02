@@ -8,6 +8,15 @@
 #' @examples
 #' myread("data.csv")
 myread=function(csv){
-  fl=paste(dird,csv,sep="")
-  read.table(fl,header=TRUE,sep=",")
+  # Define `dird` globally if not already defined
+  if (!exists("dird", envir = .GlobalEnv)) {
+    dird <<- getwd()  # Set default to current working directory
+    message("Global variable 'dird' was not set. Using working directory: ", dird)
+  }
+
+  # Construct file path
+  fl <- file.path(dird, csv)
+
+  # Read the CSV file
+  read.table(fl, header = TRUE, sep = ",")
 }
