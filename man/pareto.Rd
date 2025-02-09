@@ -20,5 +20,6 @@ A Pareto chart displaying the frequency of categories and their cumulative perce
 Pareto function
 }
 \examples{
+x <- c(10, 20, 30, 40, 50)
 pareto(x)
 }
