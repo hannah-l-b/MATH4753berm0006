@@ -2,6 +2,8 @@
 
 export(getmode)
 export(mybin)
+export(myhyper)
+export(mymult)
 export(myread)
 export(mysq)
 export(pareto)

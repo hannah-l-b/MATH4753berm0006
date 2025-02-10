@@ -4,7 +4,7 @@
 \alias{mybin}
 \title{Binomial Simulation Function}
 \usage{
-mybin(iter = 100, n = 10, p = 0.5)
+mybin(iter = 100, n = 10, p = 0.5, plot = TRUE)
 }
 \arguments{
 \item{iter}{Integer. The number of iterations/simulations to run. Default is 100.}
@@ -12,6 +12,8 @@ mybin(iter = 100, n = 10, p = 0.5)
 \item{n}{Integer. The number of trials in each iteration. Default is 10.}
 
 \item{p}{Numeric. The probability of success in each trial. Default is 0.5.}
+
+\item{plot}{Logical. Whether to plot the results. Default is TRUE.}
 }
 \value{
 A table of proportions showing the frequency of each number of successes across all iterations as well as a bar plot.
