@@ -17,7 +17,7 @@ myncurve = function(mu, sigma, a){
   ycurve = dnorm(xcurve, mean = mu, sd = sigma)
 
   # Calculate the area under the curve from -∞ to x=a
-  polygon(c(mu-3*sigma, xcurve, mu+3*sigma), c(0, ycurve, 0), col = "red")
+  polygon(c(mu-3*sigma, xcurve, mu-3*sigma), c(0, ycurve, 0), col = "red")
 
   # Compute probability P(X ≤ a)
   prob = round(pnorm(a, mean=mu, sd=sigma), 4)
