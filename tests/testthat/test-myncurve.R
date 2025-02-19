@@ -16,4 +16,3 @@ test_that("myncurve computes correct probability", {
   expect_equal(result$probability, expected_prob)
 })
 
-test_dir("tests/testthat")
