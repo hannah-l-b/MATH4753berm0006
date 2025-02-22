@@ -13,7 +13,7 @@ myncurve = function(mu, sigma, a){
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma))
 
   # Shade the area under the curve from -∞ to x=a
-  xcurve = seq(mu-3*sigma, a, length.out = 1000)
+  xcurve = seq(mu-3*sigma, a, length = 1000)
   ycurve = dnorm(xcurve, mean = mu, sd = sigma)
 
   # Calculate the area under the curve from -∞ to x=a
