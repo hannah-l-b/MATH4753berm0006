@@ -5,7 +5,7 @@
 #' @param a Numeric. The lower bound of the uniform distribution. Default is 0.
 #' @param b Numeric. The upper bound of the uniform distribution. Default is 5.
 #'
-#' @returns
+#' @returns A numeric vector containing the sums of the sampled uniform random variables. Additionally, a histogram is plotted showing the distribution of the sums over all iterations, with an overlaid normal density curve.
 #' @export
 #'
 #' @examples
