@@ -2,6 +2,7 @@
 
 export(getmode)
 export(mybin)
+export(myboot2)
 export(myclt)
 export(myhyper)
 export(mymult)
