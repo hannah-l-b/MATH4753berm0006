@@ -17,3 +17,25 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(MATH4753berm0006)
 ```
+
+## Function 1
+```{r}
+a <- myclt(n=50, iter=10000, a=5, b=10)
+```
+
+## Function 2
+```{r}
+b <- mymult(iter = 200, n = 20, p = c(0.2, 0.3, 0.1, 0.4))
+```
+
+## Function 3
+```{r}
+c <- mybin(iter = 1000, n = 10, p = 0.7)
+```
+
+## Function 4
+```{r}
+x <- c(10, 20, 30, 40, 50)
+pareto(x)
+```
+
