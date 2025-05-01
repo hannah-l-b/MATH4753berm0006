@@ -18,3 +18,24 @@ knitr::opts_chunk$set(
 library(MATH4753berm0006)
 ```
 
+## Function 1
+```{r}
+a <- mybin(iter = 1000, n = 10, p = 0.7)
+```
+
+## Function 2
+```{r}
+sample_data <- rnorm(30, mean = 50, sd = 10)
+b <- myboot2(iter = 10000, x = sample_data, fun = "mean", alpha = 0.05, cx = 1.2, xlab = "Mean", ylab = "Density")
+```
+
+## Function 3
+```{r}
+c <- myclt(n=50, iter=10000, a=5, b=10)
+```
+
+## Function 4
+```{r}
+d <- myhyper(iter = 500, N = 50, r = 20, n = 10, plot = TRUE)
+```
+
